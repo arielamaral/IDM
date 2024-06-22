@@ -1,7 +1,6 @@
 package routes
 
 import (
-	"github.com/arielamaral/IDM/controllers"
 	"github.com/gin-gonic/gin"
 )
 

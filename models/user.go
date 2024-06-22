@@ -2,6 +2,11 @@ package models
 
 import "time"
 
+func init() {
+	// Create the table in the database
+	// db.AutoMigrate(&User{})
+}
+
 type User struct {
 	EmployeeID      string    `json:"employee_id"`
 	Username        string    `json:"username"`

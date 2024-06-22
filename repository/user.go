@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/arielamaral/myidm/models"
+	"github.com/arielamaral/IDM/models"
 )
 
 func GetAllUsersFromDB() []models.User {

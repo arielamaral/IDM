@@ -1,14 +1,22 @@
 package services
 
 import (
-	"github.com/arielamaral/myidm/models"
+	"github.com/gin-gonic/gin"
 )
 
-func GetAllUsers() []models.User {
+func RegisterServices(r *gin.Engine) {
 	// Implement your logic here
-	return []models.User{}
 }
 
-func CreateUser(user models.User) {
-	// Implement your logic here
-}
+	func
+	GetAllUsers()[]
+	models.User{
+		// Implement your logic here
+		return []models.User{}
+	}
+
+	func
+	CreateUser(user
+	models.User) {
+		// Implement your logic here
+	}
